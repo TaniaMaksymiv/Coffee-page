@@ -1,0 +1,20 @@
+@media screen and (max-width:600px){
+    .title-best-offer{
+        text-align: center;
+    }
+    .all-card-uptade-news{
+        justify-content: center;
+    }
+    .footer-page{
+        height: 1200px;
+        width: auto;
+       
+    }
+    .flex-footer-page{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .categories-footer-page, .information-footer-page, .follow-us-footer-page{
+        margin-left: 145px;
+    }
+}
