@@ -1,0 +1,81 @@
+.best-offer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 140px 145px 245px 145px;
+}
+.best-offer h3{
+    color: #000;
+    font-family: 'Josefin Sans';
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; 
+    letter-spacing: 6.45px;
+    margin-bottom: 20px;
+}
+.best-offer p{
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+.best-offer h5{
+    color: #0C0D0C;
+    font-family: "Josefin Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+}
+.best-offer h4{
+    color: #000;
+    font-family: "Josefin Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; 
+}
+.best-offer p{
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; 
+}
+.diferent-coffe{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 90px;
+}
+.Brazilian-coffe, .Vietnam-coffe, .Indonesian-coffe{
+    width: 310px;
+    height: 455px;
+    display: flex;
+    flex-direction: column;
+}
+.Brazilian-coffe img{
+    width: 300px;
+    height: 265px;
+}
+.Brazilian-coffe h5, .Vietnam-coffe h5{
+    margin-top: 35px;
+}
+.Indonesian-coffe h5{
+    margin-top: 45px;
+}
+.Brazilian-coffe h4, .Vietnam-coffe h4{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.title-best-offer{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+}

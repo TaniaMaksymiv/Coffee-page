@@ -1,0 +1,75 @@
+.uptade-news{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.all-card-uptade-news{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 140px;
+}
+.title-uptade-news h3{
+    color: #000;
+    text-align: center;
+    font-family: "Josefin Sans";
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    margin-top: 140px;
+    margin-bottom: 20px;
+}
+.title-uptade-news p{
+    color: #000;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin-bottom: 60px;
+}
+.card-1-uptade-news, .card-2-uptade-news, .card-3-uptade-news{
+    height: 536px;
+    width: 362px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 40px 15px 136px 0px rgba(0, 0, 0, 0.20);
+
+}
+.card-1-uptade-news h4, .card-2-uptade-news h4, .card-3-uptade-news h4{
+    color: #000;
+    font-family: "Josefin Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.card-1-uptade-news p, .card-2-uptade-news p, .card-3-uptade-news p{
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin-bottom: 20px;
+    margin-left: 30px;
+
+}
+.card-1-uptade-news a, .card-2-uptade-news a, .card-3-uptade-news a{
+    color: #FF4B32;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    text-decoration: none;
+    margin-bottom: 30px;
+    margin-left: 30px;
+
+}

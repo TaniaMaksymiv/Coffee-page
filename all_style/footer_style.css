@@ -1,0 +1,114 @@
+.footer-page{
+    background-image: url("img/backgraund.png");
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.flex-footer-page{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo-footer-page{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 60px;
+}
+.logo-footer-page a{
+    color: #FF4B32;
+    font-family: "Josefin Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    text-decoration: none;
+    
+}
+.coffee-p{
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin-top: 20px;
+}
+.paragraf-footer-page p{
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; 
+}
+.phone-nmb-follow-us p{
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.categories-footer-page ul li, .information-footer-page ul li{
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    list-style-type: none;
+    margin-top: 20px;
+}
+.categories-footer-page h4, .information-footer-page h4, .follow-us-footer-page h4{
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    margin-top: 65px;
+}
+.categories-footer-page ul, .information-footer-page ul, .follow-us-footer-page ul{
+    padding-inline-start: 0;
+}
+.phone-nmb-follow-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 10px;
+}
+.section-1-footer-page{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 145px;
+}
+.categories-footer-page{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.information-footer-page{
+    display: flex;
+    flex-direction: column;
+}
+.follow-us-footer-page{
+    display: flex;
+    flex-direction: column;
+}
+.social-media-footer-page{
+    margin-top: 45px;
+    margin-right: 160px;
+    gap: 10px;
+    display: flex;
+}
+.paragraf-footer-page{
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+}

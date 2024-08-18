@@ -1,0 +1,62 @@
+.follow-us{
+    background-image: url(img/Follow-us\ копія.png);
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title-follow-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.title-follow-us h3{
+    color: #FFF;
+    text-align: center;
+    font-family: "Josefin Sans";
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    margin-bottom: 60px;
+}
+.title-follow-us a{
+    color: #FF4B32;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    text-decoration: none;
+    margin-top: 100px;
+    margin-bottom: 65px;
+}
+.phone-number-follow-us p, .email-follow-us p {
+    color: #FFF;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    margin-left: 15px;
+}
+.phone-number-follow-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.email-follow-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.social-media-follow-us{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 95px;
+}
