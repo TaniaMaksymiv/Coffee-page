@@ -1,0 +1,27 @@
+@media screen and (max-width:800px) {
+    .header-nav-ul li a{
+        padding: 0;
+    }  
+    .nav-list{
+        gap: 15px;
+    }
+    .diferent-coffe{
+        justify-content: center;
+    }
+    .title-best-offer{
+        text-align: center;
+    }
+    .all-card-uptade-news{
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .section-1-footer-page{
+        margin-left: 0;
+    }
+    .footer-page{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+}

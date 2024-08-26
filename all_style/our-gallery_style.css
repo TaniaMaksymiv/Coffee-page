@@ -1,0 +1,50 @@
+.our-gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.our-gallery h3{
+    color: #000;
+    text-align: center;
+    font-family: "Josefin Sans";
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; 
+    margin-bottom: 20px;
+    margin-top: 230px;
+}
+.our-gallery p{
+    color: #000;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; 
+    margin-bottom: 60px;
+}
+.our-gallery a{
+    color: #FF4B32;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    text-decoration: none;
+    margin-top: 75px;
+    margin-bottom: 155px;
+}
+.title-our-gallery{
+    display: flex;
+    flex-direction: column;
+}
+.img-our-gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}

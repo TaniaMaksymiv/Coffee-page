@@ -1,0 +1,46 @@
+@media screen and (max-width:600px){
+    .header-nav-ul{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-nav-ul li a{
+        padding: 0;
+    }
+    .header-text h2{
+        font-size: 40px;
+    
+    }
+    .header-text p{
+        font-size: 20px;
+    }
+    .header-text button{
+        width: 140px;
+        height: 40px;
+        font-size: 15px;
+    }
+    .nav-list{
+        gap: 15px;
+    }
+    .logo-nav{
+        padding-top: 60px;
+    }
+    .title-best-offer{
+        text-align: center;
+    }
+    .all-card-uptade-news{
+        justify-content: center;
+    }
+    .footer-page{
+        height: 1200px;
+        width: auto;
+       
+    }
+    .flex-footer-page{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .categories-footer-page, .information-footer-page, .follow-us-footer-page{
+        margin-left: 145px;
+    }
+}

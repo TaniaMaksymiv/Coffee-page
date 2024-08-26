@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+   /*outline: 1px solid red;*/
+}
+/*---------------------------------------------header--------------------------------------------*/
+.logo{
+    color: #FF4B32;
+    font-family: "Josefin Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 31.2px */
+    
+}
+.header-logo{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    background-image: url(../img/header_image.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+.header-nav-ul li a {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; 
+    text-decoration: none;
+    padding: 0 50px;
+    
+}
+
+.header-logo a{
+    text-decoration: none;
+}
+.header-text h2{
+    color: #FFF;
+    font-family: "Josefin Sans";
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; 
+    margin-bottom: 25px;
+}
+.header-text p{
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    opacity: 0.8;
+    margin-bottom: 35px;
+}
+.header-text button{
+    border-radius: 5px;
+    background: #FF4B32;
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    width: 148px;
+    height: 53px;
+}
+.header-text{
+    width: 524px;
+    height: 401px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 145px;
+  
+}
+.logo-nav{
+    display: flex;
+    margin-top: 60px;
+    align-items: center;
+    gap: 10px;
+    height: 50px;
+}
+.nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+    list-style-type: none;
+    margin-top: 60px;
+
+}
+.header-nav-ul{
+    display: flex;
+    height: 50px;
+    justify-content: center;
+   
+}
+.header-main{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    
+}
+.nav-list-a{
+    transition: color 0.6s;
+}
+.nav-list-a:hover{
+    color: #FF4B32;
+
+}
